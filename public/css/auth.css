@@ -1,0 +1,124 @@
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* typography rule */
+.heading1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.heading2 {
+    font-size: 48px;
+}
+
+.heading3 {
+    font-size: 40px;
+}
+
+.heading4 {
+    font-size: 30px;
+}
+
+.body-text {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.body-text-small {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cp-footer {
+    ont-size: 14px;
+}
+/* typography rule */
+
+/* button */
+.button-secondary {
+    width: 110px;
+    height: 42px;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    color: #ff7a00;
+    border-radius: 10px;
+    border-color: #ff7a00;
+}
+
+.button-secondary:hover {
+    background-color: #ff7a00;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-primary {
+    width: 110px;
+    height: 42px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ff7a00;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+/* button */
+
+.bg-image {
+    background-image: url("../img/masuk-daftar.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.form-outline {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.form-outline input {
+    height: calc(2.25rem + 2px);
+    padding: 0.75rem 1.25rem;
+}
+
+.btn-orange {
+    background-color: #f96302;
+    border-color: #f96302;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.btn-orange:hover {
+    background-color: #e45700;
+    border-color: #e45700;
+}
+
+.text-orange {
+    color: #f96302;
+}
+
+.text-orange:hover {
+    color: #e45700;
+}
+
+.h-100 {
+    height: 100% !important;
+}

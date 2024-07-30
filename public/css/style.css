@@ -1,0 +1,335 @@
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+/* typography rule */
+.heading1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.heading2 {
+    font-size: 48px;
+}
+
+.heading3 {
+    font-size: 40px;
+}
+
+.heading4 {
+    font-size: 30px;
+}
+
+.body-text {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.body-text-small {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cp-footer {
+    ont-size: 14px;
+}
+/* typography rule */
+
+/* navbar properties */
+.nav-color {
+    background-color: #1e1e1e;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out 0.3s;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.nav-link.active {
+    font-weight: 500;
+}
+/* navbar properties */
+
+/* search */
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    /* margin: 50px auto; */
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+.search-container input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+}
+.search-container .fa-search {
+    color: orange;
+    padding: 0 10px;
+}
+.search-container .fa-chevron-down {
+    padding: 0 10px;
+}
+.search-container button {
+    border: none;
+    background: none;
+    outline: none;
+}
+/* search */
+
+/* button size */
+.btn-beranda {
+    width: 227px;
+    height: 50px;
+}
+
+.button-secondary {
+    width: 110px;
+    height: 42px;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    color: #ff7a00;
+    border-radius: 10px;
+    border-color: #ff7a00;
+}
+
+.button-secondary:hover {
+    background-color: #ff7a00;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-primary {
+    width: 110px;
+    height: 42px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ff7a00;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+/* button size */
+
+/* background */
+.banner {
+    background: url("../img/bg-unud.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner1 {
+    background: url("../img/bg-unud.png") no-repeat center center;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2 {
+    background: url("../img/bg-unud.png") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-layanan1 {
+    background: url("../img/img-layanan1.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-layanan2 {
+    background: url("../img/img-layanan2.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-layanan3 {
+    background: url("../img/img-layanan3.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* background */
+
+/* container rule */
+.container-all {
+    margin-top: 115px;
+    margin-bottom: 115px;
+}
+/* container rule */
+
+/* status */
+.status-circle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.bg-warning {
+    background-color: #ffc107 !important;
+}
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+.bg-success {
+    background-color: #28a745 !important;
+}
+.bg-secondary {
+    background-color: #6c757d !important;
+}
+/* status */
+
+.img-style {
+    height: 100%;
+    object-fit: cover;
+}
+
+.faq-blank {
+    height: 47px;
+    width: 165px;
+}
+
+.faq-tagline p {
+    margin-top: 150px;
+}
+
+.login-layout {
+    border-radius: 80px 0px 0px 80px;
+    background: #f2f2f2;
+}
+
+.form-container {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.form-container select,
+.form-container button {
+    height: 50px;
+}
+
+/* sidebar */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    background-color: #1e1e1e;
+    padding: 15px;
+    position: fixed;
+    overflow: auto;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.sidebar a,
+.dropdown-btn {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sidebar a:hover,
+.dropdown-btn:hover {
+    background-color: #575757;
+}
+
+.sidebar a i,
+.dropdown-btn i {
+    margin-right: 10px;
+}
+
+.dropdown-container {
+    display: none;
+    padding-left: 20px;
+}
+
+.sidebar a.active,
+.dropdown-btn.active {
+    background-color: #333;
+}
+
+.dropdown-icon {
+    margin-left: auto;
+    transition: transform 0.3s;
+}
+
+.dropdown-btn.active .dropdown-icon {
+    transform: rotate(180deg);
+}
+/* sidebar */
